@@ -1,3 +1,21 @@
+###################################################################
+### Learning how to use API to get JSON data ###
+
+# import requests
+# response = requests.get(url="http://api.open-notify.org/iss-now.json")
+# # print(response) # This gives back an HTTP [response code]
+# # print(response.status_code)
+# # print(response.raise_for_status()) # Uses Request module to raise errors for us
+#
+# json_data = response.json()
+# longitude = json_data["iss_position"]["longitude"]
+# latitude = json_data["iss_position"]["latitude"]
+#
+# iss_position = (longitude, latitude)
+# print(iss_position)
+
+###################################################################
+
 from tkinter import *
 
 
@@ -24,3 +42,4 @@ kanye_button.grid(row=1, column=0)
 
 
 window.mainloop()
+
